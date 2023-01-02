@@ -13,7 +13,7 @@ This extension allows you to generate the `serialversionUID` for a Java class in
 
 ## Installation
 
-1. Download the extension from the [Visual Studio Code Marketplace](link to extension).
+1. Download the extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/manage/publishers/Integracode/extensions/serialv-uid-generator/hub).
 2. Install the extension by opening the downloaded file in Visual Studio Code.
 
 ## Usage
@@ -27,7 +27,7 @@ To use this extension, follow these steps:
 
 ## Support
 
-For support, please create an issue in the [GitHub issue tracker](link to issue tracker).
+For support, please create an issue in the GitHub issue tracker.
 
 ## License
 
