@@ -1,7 +1,7 @@
 {
     "name": "serialv-uid-generator",
     "version": "1.0.0",
-    "publisher": "Hugo Castillo",
+    "publisher": "Integracode",
     "repository": {
         "type": "git",
         "url": "https://github.com/ungeimer/serialv-uid-generator.git"
