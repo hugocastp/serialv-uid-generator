@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "extensionHost",
+            "request": "launch",
+            "name": "Debug Extension",
+            "args": ["--extensionDevelopmentPath=${workspaceFolder}"]
+        }
+    ]
+}

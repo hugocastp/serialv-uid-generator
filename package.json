@@ -1,0 +1,43 @@
+{
+    "name": "serialv-uid-generator",
+    "version": "1.0.0",
+    "publisher": "Hugo Castillo",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ungeimer/serialv-uid-generator.git"
+    },
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Extension Packs"
+    ],
+    "activationEvents": [
+        "onStartup"
+    ],
+    "main": "./src/extension.js",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.generateSerialVUID",
+                "title": "Generate serialVersionUID"
+            }
+        ],
+        "menus": {
+            "editor/context": [
+                {
+                    "command": "extension.generateSerialVUID",
+                    "group": "navigation",
+                    "when": "editorTextFocus"
+                }
+            ]
+        }
+    },
+    "devDependencies": {
+        "vscode": "^1.1.37"
+    },
+    "dependencies": {
+        "@types/node": "^18.11.18",
+        "child_process": "^1.0.2"
+    }
+}
